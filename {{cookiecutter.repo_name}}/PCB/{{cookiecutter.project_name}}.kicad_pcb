@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "{{cookiecutter.project_name}}")
+    (rev "0.0")
+    (company "SK Electronics Consuling LLC")
+    (comment 1 "Client: __________")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" signal)
