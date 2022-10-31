@@ -1,4 +1,6 @@
+##################
 Cookiecutter-kicad
+##################
 
 Usage
 =====
@@ -7,6 +9,7 @@ To use, call cookiecutter direct from the command line:
 `cookiecutter {path to this directory}`
 
 The arguments it takes are the following:
+
 * Name: Your common name.  Only used if local git repo settings are used.
 * email: Your e-mail.  Only used if local git repo settings are used.
 * project_name: Name of the project.  Can use plain English formatting.
