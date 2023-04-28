@@ -18,5 +18,6 @@ The arguments it takes are the following:
 
 TODO:
 =====
-Open and save PCB with gerber outputs.
-Add README within template.
+* Open and save PCB with gerber outputs.
+* Add README within template.
+* Update to KiCAD v7
