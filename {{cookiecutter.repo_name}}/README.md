@@ -1,4 +1,4 @@
-# {{cookiecutter.project_name}} PCB
+# {{cookiecutter.project_name}}
 
 [Replace these texts and sections as needed.  This file should desribe the PCB, and associated information.]
 
