@@ -9,5 +9,5 @@ if {{cookiecutter.use_local_repo_credentials}}:
 
 
 # Add the basics
-subprocess.call(["git", "add", ".gitignore", "PCB/*", "config.kiplot.yaml"])
+subprocess.call(["git", "add", ".gitignore", "PCB/*", "config.kibot.yaml"])
 subprocess.call(["git", "commit", "-m", "\"Initial commit of empty project and git-specific files\""])

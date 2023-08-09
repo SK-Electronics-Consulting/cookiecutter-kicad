@@ -1,15 +1,15 @@
-kiplot:
+kibot:
   version: 1
 
 preflight:
   run_erc: true
-  run_drc: false
+  run_drc: true
   check_zone_fills: true
   ignore_unconnected: false
-  filters:
-    - filter_msg: 'Pin connected to other pins, but not driven by any pin'
-      error_number: 3
-      regexp:  '(Power input) of component'
+  # filters:
+    # - filter_msg: 'Pin connected to other pins, but not driven by any pin'
+    #   error_number: 3
+    #   regexp:  '(Power input) of component'
 
 outputs:
   - name: 'Print Schema as PDF'
@@ -19,7 +19,7 @@ outputs:
     options:
       output: '%p-Schematic.%x'
 
-  - name: 'Pront Schema as SVGs'
+  - name: 'Print Schema as SVGs'
     comment: "Print schematic (SVG)"
     type: svg_sch_print
     dir: schematics
